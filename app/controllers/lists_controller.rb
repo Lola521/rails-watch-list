@@ -7,7 +7,7 @@ before_action :set_list, only: [:show, :destroy]
 
   def show
     @bookmak = Bookmark.new
-    @overview = Overview.new(list:@list)
+    # @overview = Overview.new(list:@list)
   end
 
   def new
